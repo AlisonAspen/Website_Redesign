@@ -15,10 +15,10 @@
   <nav>
     <div class="navbar">
         <span><img src="images/blackCircle.svg" alt=""></span>
-        <span><a href="index.html">About</a></span>
-        <span><a href="solutions.html" style="text-decoration: underline;">Solutions</a></span>
-        <span><a href="resources.html">Resources</a></span>
-        <span><a href="contact.html">Contact</a></span>
+        <span class="collapse"><a href="index.html" >About</a></span>
+        <span class="collapse"><a href="solutions.html" style="text-decoration: underline;">Solutions</a></span>
+        <span class="collapse"><a href="resources.html">Resources</a></span>
+        <span class="collapse"><a href="contact.html">Contact</a></span>
         <button type="button" name="login" id="login"><a href="">Login</a></button>
     </div>
   </nav>
@@ -26,8 +26,8 @@
   <main>
     <div class="main-holder">
       <div class="title-bar">
-        <h1 style="width: 60%; margin: 0 auto;">OUR SYSTEMS</h1>
-        <h3 style="width: 60%; margin: 0 auto;">
+        <h1>OUR SYSTEMS</h1>
+        <h3>
           Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
         </h3>
       </div>
@@ -38,9 +38,10 @@
           <span onclick="toggleActive(2)">MEDIAFRONTIER</span>
       </div>
 
+
       <div class="text-holder inactive mediaspectrum">
         <span>
-          <h1 style="text-decoration: underline">MediaSpectrum</h1>
+          <h1 style="text-decoration: underline; padding: 5px 0px">MediaSpectrum</h1>
           <h4 style="font-weight: bold;">
             MediaSpectrum provides an in-depth view of the media marketplace. Complete coverage of category, company, brand spending and audience impressions can be obtained at the click of a mouse. Detailed breakdown of ratings and audience compositions across many media platforms are also available in the system.
           </h4>
@@ -61,7 +62,7 @@
 
       <div class="text-holder">
         <span>
-          <h1 style="text-decoration: underline">TacticVision</h1>
+          <h1 style="text-decoration: underline; padding: 5px 0px">TacticVision</h1>
           <h4 style="font-weight: bold;">
             The TacticVision system enables users to perform deep demographic analysis, by network and by brand/sub-brand across any or all audience targets (market breaks). The system also provides analysis on consumption and viewing data combined to create "Consumer Ratings". Reach & Frequency for user selected networks, programs, brands and schedules are also available.
           </h4>
@@ -89,7 +90,7 @@
 
       <div class="text-holder inactive">
         <span>
-          <h1 style="text-decoration: underline">MediaSpectrum</h1>
+          <h1 style="text-decoration: underline; padding: 5px 0px">MediaSpectrum</h1>
           <h4 style="font-weight: bold;">
             MediaSpectrum provides an in-depth view of the media marketplace. Complete coverage of category, company, brand spending and audience impressions can be obtained at the click of a mouse. Detailed breakdown of ratings and audience compositions across many media platforms are also available in the system.
           </h4>
@@ -115,7 +116,7 @@
   <!-- footer -->
     <footer>
       <div class="footer">
-          <span>
+          <span class="collapse">
               <ul class="footer-list">
                 <li style="font-weight: bold;">About Us</li>
                 <li>Resources</li>
@@ -123,7 +124,7 @@
                 <li>Contact</li>
               </ul>
           </span>
-          <span>
+          <span class="collapse">
               <ul class="footer-list">
                 <li style="font-weight: bold;">Solutions</li>
                 <li>MediaSpectrum</li>

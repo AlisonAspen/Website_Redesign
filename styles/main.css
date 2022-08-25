@@ -67,6 +67,12 @@ h4 {
   margin: 0 auto;
 }
 
+.title-bar h1, .title-bar h3 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+
 .text-holder {
   width: 60%;
   padding: 30px 0px;
@@ -231,6 +237,7 @@ h4 {
   color: white;
 }
 
+
 /* ----------- MEDIA QUERIES ----------- */
 /* mobile first -> start with small breakpoints and get larger  */
 /* portrait phones */
@@ -240,6 +247,9 @@ h4 {
   }
   h1 {
     font-size: 18px;
+  }
+  h3 {
+    font-size: 14px;
   }
   .navbar {
     justify-content: space-around;
@@ -275,6 +285,7 @@ h4 {
   }
   .text-holder {
     width: 90%;
+    padding: 10px 0px;
   }
   .icon {
     width: 25px;
@@ -283,7 +294,23 @@ h4 {
   .card-button {
     margin: 10px 0px;
   }
+  .subnav {
+    flex-flow: column;
+    justify-content: center;
+    box-shadow: none;
+    border: 1px solid black;
+    border-style: solid none;
+  }
+  .title-bar h1, .title-bar h3 {
+    width: 90%;
+  }
+  .footer {
+    border: 1px solid black;
+    border-style: solid none;
+    box-shadow: none;
+  }
 }
+
 /*
 @media (min-width: 250px) {
   * {
