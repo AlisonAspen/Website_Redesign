@@ -25,9 +25,9 @@ button a {
   color: white;
 }
 
-.button:hover {
-  background-color: white;
-  color: black;
+button:hover {
+  background-color: #3D5293;
+  color: white;
 }
 
 h1 {
@@ -38,6 +38,10 @@ h3 {
 }
 h4 {
   font-size: 18px;
+}
+
+#login {
+  font-weight: bold;
 }
 
 .navbar {
@@ -69,7 +73,7 @@ h4 {
 
 .title-bar h1, .title-bar h3 {
   width: 60%;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 
 
@@ -124,10 +128,6 @@ h4 {
   flex: 2;
 }
 
-#active {
-  text-decoration: underline;
-}
-
 .black-highlight {
   background-color: black;
   color: white;
@@ -171,6 +171,16 @@ h4 {
   padding: 20px;
   font-size: 18px;
   font-weight: bold;
+}
+
+.subnav span:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .searchbar {
@@ -223,7 +233,6 @@ h4 {
   justify-content: space-around;
   font-size: 10px;
   box-shadow: 0px 0px 10px;
-  margin-top: 50px;
 }
 
 .footer-list {
@@ -253,6 +262,9 @@ h4 {
   }
   .navbar {
     justify-content: space-around;
+  }
+  .title-bar {
+    padding: 10px;
   }
   .highlight-text {
     font-size: 12px;
@@ -284,7 +296,7 @@ h4 {
     width: 90%;
   }
   .text-holder {
-    width: 90%;
+    width: 80%;
     padding: 10px 0px;
   }
   .icon {
@@ -310,44 +322,3 @@ h4 {
     box-shadow: none;
   }
 }
-
-/*
-@media (min-width: 250px) {
-  * {
-    font-size: 12px;
-  }
-  h1 {
-    font-size: 18px;
-  }
-  .highlight-text {
-    font-size: 12px;
-    padding: 0px;
-  }
-  .card-holder {
-    flex-flow: column;
-  }
-  #main-card {
-    flex: 1;
-  }
-  .big-card {
-    width: 80%;
-  }
-
-}
-
-
-@media (min-width: 576px) {
-
-}
-
-/* tablets  */
-@media (min-width: 575px) {
-
-}
-
-/* laptops & Desktops */
-@media (min-width: 992px) {
-
-}
-
-*/
