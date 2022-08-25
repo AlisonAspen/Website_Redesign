@@ -25,6 +25,11 @@ button a {
   color: white;
 }
 
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
 h1 {
   font-size: 28px;
 }
@@ -140,6 +145,13 @@ h4 {
   padding: 0px 20px;
 }
 
+.highlight-content {
+  display: inline-block;
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
 .subnav {
   display: flex;
   width: 100%;
@@ -213,5 +225,102 @@ h4 {
   padding: 20px;
 }
 
+.footer-list li:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
 
 /* ----------- MEDIA QUERIES ----------- */
+/* mobile first -> start with small breakpoints and get larger  */
+/* portrait phones */
+@media (max-width: 575px) {
+  * {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .navbar {
+    justify-content: space-around;
+  }
+  .highlight-text {
+    font-size: 12px;
+    padding: 0px;
+  }
+  .card-holder {
+    flex-flow: column;
+  }
+  .card-content {
+    padding: 0px 10px;
+  }
+  #main-card {
+    flex: 1;
+  }
+  .big-card, .small-card {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .collapse {
+    display: none;
+  }
+  .small-card h4, .small-card p {
+    padding: 5px;
+  }
+  .small-card ul {
+    padding: 5px 20px;
+  }
+  .highlight-content {
+    width: 90%;
+  }
+  .text-holder {
+    width: 90%;
+  }
+  .icon {
+    width: 25px;
+    margin-left: 5px;
+  }
+  .card-button {
+    margin: 10px 0px;
+  }
+}
+/*
+@media (min-width: 250px) {
+  * {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .highlight-text {
+    font-size: 12px;
+    padding: 0px;
+  }
+  .card-holder {
+    flex-flow: column;
+  }
+  #main-card {
+    flex: 1;
+  }
+  .big-card {
+    width: 80%;
+  }
+
+}
+
+
+@media (min-width: 576px) {
+
+}
+
+/* tablets  */
+@media (min-width: 575px) {
+
+}
+
+/* laptops & Desktops */
+@media (min-width: 992px) {
+
+}
+
+*/
